@@ -275,7 +275,7 @@
                   </div>
    
                   <div class="ml-4">
-                     <input id="counpon-apply-field" class="w-[80%] py-3 px-2 rounded" type="text" placeholder="Have any coupon?get discount">
+                     <input id="counpon-apply-field" class="w-[80%] py-3 px-2 rounded" type="text" placeholder="Have any coupon?">
                      <button onclick="updaTeGrandTotalByUseCoupon()" id="disable-btn" class="btn bg-[#1DD100] text-white" disabled>Apply</button>
                  </div>
                  <!-- grand total -->
@@ -287,11 +287,11 @@
    
                <div class="mt-5">
                   <p class="font-bold">Passenger Name:</p>
-                  <input class="w-[100%] py-3 px-2 rounded border" type="text" placeholder="type your name">
+                  <input class="w-[100%] py-3 px-2 rounded border" type="text" placeholder="Enter your name">
                   <p class="font-bold">Your Number:</p>
-                  <input oninput="nextBtnAnableByInputValue ()" id="number-field" class="w-[100%] py-3 px-2 rounded border" type="number" placeholder="type your number">
+                  <input oninput="nextBtnAnableByInputValue ()" id="number-field" class="w-[100%] py-3 px-2 rounded border" type="number" placeholder="Enter your number">
                   <p class="font-bold">Email ID:</p>
-                  <input class="w-[100%] py-3 px-2 rounded border" type="email" placeholder="type your email id">
+                  <input class="w-[100%] py-3 px-2 rounded border" type="email" placeholder="Enter your email id">
                   <button id="next-btn" onclick="my_modal_5.showModal()" class="btn w-full bg-[#5fe44a] text-white font-bold text-2xl mt-2" disabled>NEXT</button>
                   <div class="flex justify-around">
                       <p class="underline">Terms & condition</p>
@@ -337,10 +337,13 @@
                 <a>Privacy policy</a>
               </div>
             </nav>
-          </footer>
-     
+          </footer>     
    </section>
 
+
+   <script src="seat.js"></script>
+   <script src="copon.js"></script>
+   <script src="utilize.js"></script>
 
 </body>
 </html>
